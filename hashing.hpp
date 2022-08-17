@@ -7,6 +7,6 @@
 using namespace std;
 
 
-int hash_string(string s);
+int hash_string(string s,int m);
 
 #endif

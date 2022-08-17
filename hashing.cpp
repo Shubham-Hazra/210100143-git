@@ -1,5 +1,4 @@
 #include "hashing.hpp"
-
 int pow(int a,int b)
 {
     int t=1;
@@ -10,10 +9,9 @@ int pow(int a,int b)
     return t;
 }
 
-int hash_string(string s) {
+int hash_string(string s,int m) {
     // implement hashing function here
     int i=0;
-    int m=43;
     int p = 59;
     int hash=0;
     while(s[i]!='\0')
