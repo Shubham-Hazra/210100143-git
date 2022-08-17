@@ -27,7 +27,7 @@ where -a gets the details of the hidden files also and -h stands for human reada
 format.
  ---
 2. Q1(b)
-Alias numberOfFiles was created in .bashrc as
+Alias numberOfFiles was created in .bashrc as:
 *alias numberOfFiles='du -ah|wc -l'*
 The first part of this command is the same as the one in above. It lists the disk usage
 for all files but this time I'm piping this output into the wc command which stands for
