@@ -25,6 +25,7 @@ Alias sizeOfFlile was created in .bashrc as:
 du is a command that stands for disk usage and the flags -a and -h are used
 where -a gets the details of the hidden files also and -h stands for human readable
 format.
+ ---
 2.Q1(b)
 Alias numberOfFiles was created in .bashrc as
 *alias numberOfFiles='du -ah|wc -l'*
