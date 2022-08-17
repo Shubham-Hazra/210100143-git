@@ -19,14 +19,14 @@ To run the code you simply run the command:
  corresponds to the hash value generated.
 
 ## Solution to Question 1
-1.Q1(a)
+1. Q1(a)
 Alias sizeOfFlile was created in .bashrc as:
 *alias sizeOfFiles='du -ah'*
 du is a command that stands for disk usage and the flags -a and -h are used
 where -a gets the details of the hidden files also and -h stands for human readable
 format.
  ---
-2.Q1(b)
+2. Q1(b)
 Alias numberOfFiles was created in .bashrc as
 *alias numberOfFiles='du -ah|wc -l'*
 The first part of this command is the same as the one in above. It lists the disk usage
