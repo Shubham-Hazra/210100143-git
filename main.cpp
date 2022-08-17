@@ -6,5 +6,5 @@ using namespace std;
 
 
 int main(int argc, char *argv[]) {
-    cout << hash_string(argv[1]) << endl;
+    cout << hash_string(argv[1],59) << endl;
 }
